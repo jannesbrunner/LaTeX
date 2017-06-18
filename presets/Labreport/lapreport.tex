@@ -1,0 +1,100 @@
+\documentclass[12pt,a4paper,bibtotoc]{scrartcl}
+\usepackage[english]{babel}
+% ##########################################
+% PDFLaTeX or not:
+\newif \ifPDF                                   
+\ifx \pdfoutput \undifined \PDFfalse 
+\else \ifnum \pdfoutput >0 \PDFtrue
+     \else \PDFfalse         
+     \fi     
+\fi 
+% ##########################################
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{exscale}
+\usepackage{easymat}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{verbose}
+\usepackage{etex}
+\usepackage[font=small,labelfont=bf,hang]{caption}
+\usepackage{setspace}
+\usepackage{listings} %for Code representing
+\lstset{language=Java}
+\lstdefinestyle{endcode}{numbers=left}
+
+%\usepackage{picins}
+% ##########################################
+% Site design:
+\usepackage{units}
+\usepackage[a4paper]{anysize}
+\marginsize{2cm}{2cm}{1cm}{1cm} %
+% ##########################################
+\ifPDF
+\usepackage{color}   
+\usepackage[
+  pdftex,
+  colorlinks,
+  citecolor = {black},
+  linkcolor = {black},
+  urlcolor  = {black},                
+  bookmarks         = true,
+  bookmarksopen     = true, % show bookmarks
+  bookmarksnumbered = true, % ... and number them
+  pdftitle          = {Lab Report},
+  pdfauthor         = {Jannes Brunner}
+]{hyperref}
+
+\setlength{\headheight}{15pt}
+\else
+\usepackage{floatflt}
+\usepackage[dvips]{color} 
+\usepackage{cite} % summarize qoutes (only working without hyperref)
+\usepackage{hyperref}
+\fi%-----------------------------------------------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			{\LARGE \bf Lab Report}\\[4mm]
+			{\large Berlin, XX.XX.201X}
+			\vspace{0.5cm} \hrule \vspace{0.6cm}
+			{\huge \bf \begin{onehalfspace}01: Fun with Lab Reports \end{onehalfspace}}
+			\vspace{0.8cm}
+			\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.5\textwidth]{images/HTW_Logo_rgb.png}
+			\end{figure}
+			\vspace{0.8cm}
+			\large {Jannes Brunner}
+		\end{center}
+		\vspace{0.6cm}
+		{\bf Module}: Computer Science
+\end{titlepage}
+
+\newpage
+\pagenumbering{roman}
+\tableofcontents 
+\newpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\fancyhead[R]{\textsl{\small Jannes Brunnes}}
+\fancyhead[L]{\textsl{\small Lab 01: Fun with Lab Repots}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\input{sections/report.tex}
+
+\input{sections/code.tex}
+
+%\begin{thebibliography}{999}
+%\bibitem {key-1} Quelle 1
+%	\end{thebibliography}
+
+\end{document}
