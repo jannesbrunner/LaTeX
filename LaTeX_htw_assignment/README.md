@@ -7,20 +7,20 @@ Ziele / Goals:
 
 - ca 5 Seiten [ ]
 - Deckblatt [ ]
-- Inhalstverzeichnis [ ]
+- Inhalstverzeichnis [X]
 
-- Zwei Kapitel [ ]
-- Zwei Listen [ ]
+- Zwei Kapitel [X]
+- Zwei Listen [X]
 - Zwei Fußnoten [ ]
-- Zwei Formeln [ ]
-- Zwei Tabellen mit Überschrift und je mindestens vier Spalten [ ]
-- + eine davon mit Spaltenüberschriften, die über mehrere Spalten gehen [ ]
+- Zwei Formeln [X]
+- Zwei Tabellen mit Überschrift und je mindestens vier Spalten [X]
+- + eine davon mit Spaltenüberschriften, die über mehrere Spalten gehen [X]
 - mindestens eine textumflossene Grafik (maximale Größe der Grafik 500 kB) [ ]
 - eine Abbildung aus mindestens zwei Grafiken mit Einzelbildunterschriften und einer Gesamtbildunterschrift
 (maximale Größe der Grafiken je 500 kB) [ ]
 - mindestens zwei selbsterstellte Vektor-Grafiken (mit picture- oder tikz-Umgebung) [ ]
 - Nummerierung der Tabellen, Abbildungen, Formeln, Referenzen im Text auf Tabellen, Abbildungen
 und Formeln [ ]
-- Literaturangabe mit mindestens zwei Quellen [ ]
+- Literaturangabe mit mindestens zwei Quellen [X]
 - Zitate der Literaturquellen im Text [ ]
 
