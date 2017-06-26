@@ -10,6 +10,7 @@
 \usepackage{float} % for better floating of objects
 \usepackage{units}
 \usepackage[font=small,labelfont=bf,hang]{caption}
+\usepackage[table,xcdraw]{xcolor} % for colorful tables
 % ams 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -55,15 +56,96 @@
 	\item Text A
 	\item Text B
 	\item Text C
-\end{itemize}
+\end{itemize}
+
 
 \begin{enumerate}
 	\item Text A
 	\item Text B
 	\item Text C
-\end{enumerate}
+\end{enumerate}
+
+\chapter{Mathe}
+
+\textbf{Satz des Pythagoras} 
+\vspace{2pt}
+\newline
+$ a^{2} + b^{2} = c^{2} $
+\vspace{10pt}
+\newline
+\textbf{Newton-Verfahren} 
+\vspace{2pt}
+\newline
+$ x_{n+1} = x_{n} - \frac{f(x_{n})}{f'(x_{n}} $
+\vspace{10pt}
+\newline
+\textbf{Varianz einer diskreten Verteilung} 
+\vspace{2pt}
+\newline
+$ \sigma^2_{X} = \mathrm{Var(X)} = \sum_i (x_i - \mu_{X})^2 \cdot P(X = x_i) $
+
+\chapter{Etwas für das Auge}
+\section{Tabellen}
+
+\begin{table}[htbp]
+	\caption{Gitternetztabelle}
+	\label { Tabelle 1.0}
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Wert 1 & Wert 2 & Wert 3 & Wert 4 \\ \hline
+		Wert 5 & Wert 6 & Wert 7 & Wert 8 \\ \hline
+		Wert 9 & Wert 10 & Wert 11 & Wert 12  \\ \hline
+		Wert 13 & Wert 14 & Wert 15 & Wert 16  \\ \hline
+	\end{tabular}
+	
+\end{table}
+
+\begin{table}[h!]
+	\centering
+	\caption{Fancy Tabelle}
+	\label{my-label}
+	\begin{tabular}{llll}
+		Wert 1  & Wert 2                          & Wert 3                          & Wert 4  \\ \hline
+		Wert 5  & \cellcolor[HTML]{329A9D}Wert 6  & \cellcolor[HTML]{329A9D}Wert 7  & Wert 8  \\ \hline
+		Wert 9  & \cellcolor[HTML]{329A9D}Wert 10 & \cellcolor[HTML]{329A9D}Wert 11 & Wert 12 \\ \hline
+		Wert 13 & Wert 14                         & Wert 15                         & Wert 16 \\ \hline
+	\end{tabular}
+\end{table}
+
+Farben ermöglicht durch \textit{package} \texttt{xcolor}.
+
+\section{Erweiterte Tabelle}
+
+\begin{table}[htbp]
+	\caption{Gitternetztabelle}
+	\label { Tabelle 1.0}
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\multicolumn{2}{|l|}{Sub-Title 1} & \multicolumn{2}{l|}{Sub-Title 2} \\ \hline
+		Wert A          & Wert B          & Wert C          & Wert D         \\ \hline
+		Wert E          & Wert F          & Wert G          & Wert H         \\ \hline
+		Wert I          & Wert J          & Wert K          & Wert L         \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+
+\centering
+\caption{Spezial Tabelle}
+\label{my-label}
+	
+\begin{tabular}{|l|l|l|l|}
+
+\hline
+\multicolumn{2}{|l|}{Sub-Title 1} & \multicolumn{2}{l|}{Sub-Title 2} \\ \hline
+Wert A          & Wert B          & Wert C          & Wert D         \\ \hline
+Wert E          & Wert F          & Wert G          & Wert H         \\ \hline
+Wert I          & Wert J          & Wert K          & Wert L         \\ \hline
+\end{tabular}
+\end{table}
+\newpage
 
 
-	
-	
 \end{document}
