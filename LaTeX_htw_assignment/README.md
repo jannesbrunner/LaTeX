@@ -6,12 +6,12 @@ Assignment for the course *Wissenschaftliches Arbeiten mit LaTeX*
 Ziele / Goals:
 
 - ca 5 Seiten [X]
-- Deckblatt [ ]
+- Deckblatt [X]
 - Inhalstverzeichnis [X]
 
 - Zwei Kapitel [X]
 - Zwei Listen [X]
-- Zwei Fußnoten [ ]
+- Zwei Fußnoten [X]
 - Zwei Formeln [X]
 - Zwei Tabellen mit Überschrift und je mindestens vier Spalten [X]
 - + eine davon mit Spaltenüberschriften, die über mehrere Spalten gehen [X]
@@ -20,7 +20,7 @@ Ziele / Goals:
 (maximale Größe der Grafiken je 500 kB) [X]
 - mindestens zwei selbsterstellte Vektor-Grafiken (mit picture- oder tikz-Umgebung) [X]
 - Nummerierung der Tabellen, Abbildungen, Formeln, Referenzen im Text auf Tabellen, Abbildungen
-und Formeln [ ]
+und Formeln [X]
 - Literaturangabe mit mindestens zwei Quellen [X]
-- Zitate der Literaturquellen im Text [ ]
+- Zitate der Literaturquellen im Text [X]
 
