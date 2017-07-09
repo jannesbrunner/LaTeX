@@ -2,6 +2,8 @@
 \documentclass{scrreprt}
 \usepackage [T1] {fontenc}
 \usepackage [utf8] {inputenc}
+% turn on or off:
+\usepackage [colorlinks=true] {hyperref} % colorful internal links
 \usepackage{fancyhdr} % for headers + footers control
 \usepackage[ngerman]{babel} % set german language
 \usepackage{graphicx} % for images
@@ -13,14 +15,14 @@
 \usepackage{units}
 \usepackage[font=small,labelfont=bf,hang]{caption}
 \usepackage{subcaption} 
-
-\usepackage[table,xcdraw]{xcolor} % for colorful tables
+\usepackage{tikz} % for drawing stuff
 % ams 
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
-% turn on or off:
-\usepackage [colorlinks=true] {hyperref} % colorful internal links
+
+
+
 
 \usepackage[square,sort,comma,numbers]{natbib} % for cites
 
@@ -117,10 +119,10 @@ $ \sigma^2_{X} = \mathrm{Var(X)} = \sum_i (x_i - \mu_{X})^2 \cdot P(X = x_i) $
 	\caption{Fancy Tabelle}
 	\label{my-label}
 	\begin{tabular}{llll}
-		Wert 1  & Wert 2                          & Wert 3                          & Wert 4  \\ \hline
-		Wert 5  & \cellcolor[HTML]{329A9D}Wert 6  & \cellcolor[HTML]{329A9D}Wert 7  & Wert 8  \\ \hline
-		Wert 9  & \cellcolor[HTML]{329A9D}Wert 10 & \cellcolor[HTML]{329A9D}Wert 11 & Wert 12 \\ \hline
-		Wert 13 & Wert 14                         & Wert 15                         & Wert 16 \\ \hline
+		Wert 1  & Wert 2   & Wert 3  & Wert 4  \\ \hline
+		Wert 5  &  Wert 6  & Wert 7  & Wert 8  \\ \hline
+		Wert 9  &  Wert 10 & Wert 11 & Wert 12 \\ \hline
+		Wert 13 & Wert 14  & Wert 15  & Wert 16 \\ \hline
 	\end{tabular}
 \end{table}
 
