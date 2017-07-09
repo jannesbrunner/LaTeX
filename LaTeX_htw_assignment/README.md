@@ -15,9 +15,9 @@ Ziele / Goals:
 - Zwei Formeln [X]
 - Zwei Tabellen mit Überschrift und je mindestens vier Spalten [X]
 - + eine davon mit Spaltenüberschriften, die über mehrere Spalten gehen [X]
-- mindestens eine textumflossene Grafik (maximale Größe der Grafik 500 kB) [ ]
+- mindestens eine textumflossene Grafik (maximale Größe der Grafik 500 kB) [X]
 - eine Abbildung aus mindestens zwei Grafiken mit Einzelbildunterschriften und einer Gesamtbildunterschrift
-(maximale Größe der Grafiken je 500 kB) [ ]
+(maximale Größe der Grafiken je 500 kB) [X]
 - mindestens zwei selbsterstellte Vektor-Grafiken (mit picture- oder tikz-Umgebung) [ ]
 - Nummerierung der Tabellen, Abbildungen, Formeln, Referenzen im Text auf Tabellen, Abbildungen
 und Formeln [ ]
