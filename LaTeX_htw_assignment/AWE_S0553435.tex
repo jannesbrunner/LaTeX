@@ -3,13 +3,16 @@
 \usepackage [T1] {fontenc}
 \usepackage [utf8] {inputenc}
 \usepackage{fancyhdr} % for headers + footers control
-\usepackage[ngerman]{babel} %set german language
-\usepackage{graphicx}
+\usepackage[ngerman]{babel} % set german language
+\usepackage{graphicx} % for images
+% \usepackage{svg} % for vector graphics
+\usepackage{wrapfig} % for float images
 \usepackage[a4paper]{anysize}
 \usepackage{lmodern} % Latin modern font
 \usepackage{float} % for better floating of objects
 \usepackage{units}
 \usepackage[font=small,labelfont=bf,hang]{caption}
+\usepackage{subcaption} 
 
 \usepackage[table,xcdraw]{xcolor} % for colorful tables
 % ams 
@@ -155,11 +158,44 @@ Wert I          & Wert J          & Wert K          & Wert L         \\ \hline
 \end{table}
 \newpage
 
-\chapter{Text mit Bild \cite{ref2}}
+\chapter{Bildliche Texte}
+\section{Text mit Bild \cite{ref2}}
 
-Das Basis-Programm von LaTeX ist TeX und wurde von Donald E. Knuth während seiner Zeit als Informatik-Professor an der Stanford University entwickelt. Auf TeX aufbauend entwickelte Leslie Lamport Anfang der 1980er Jahre LaTeX, eine Sammlung von TeX-Makros, die die Benutzung für den durchschnittlichen Anwender gegenüber TeX vereinfachten und erweiterten. Der Name LaTeX ist eine Abkürzung für Lamport TeX.
+Das Basis-Programm von LaTeX ist TeX und wurde von Donald E. Knuth während seiner Zeit als Informatik-Professor an der Stanford University entwickelt. Auf TeX aufbauend entwickelte Leslie Lamport Anfang der 1980er Jahre LaTeX, eine Sammlung von TeX-Makros, die die Benutzung für den durchschnittlichen Anwender gegenüber TeX vereinfachten und erweiterten. 
+\\ Der Name LaTeX ist eine Abkürzung für Lamport TeX.
+\begin{wrapfigure}{l}{160pt}
+\includegraphics[width=0.3\textwidth]{images/396px-Bubo_scandiacus_(Linnaeus,_1758)_Male.jpg}
+\caption{Eine Schneeeule \cite{ref3}}
+\end{wrapfigure}{} 
 Lamports Entwicklung von LaTeX endete gegen 1990 mit der Version 2.09.[2] Die aktuelle Version LaTeX wurde ab 1989 von einer größeren Zahl von Autoren um Frank Mittelbach, Chris Rowley und Rainer Schöpf entwickelt. Wesentliche Erweiterungen von Lamports Versionen bestanden in einem „vierdimensionalen“ Mechanismus für das Umschalten zwischen Zeichensätzen („New Font Selection Scheme“, „NFSS“), in einem komplexeren Mechanismus für das Einlesen von Zusatzpaketen und in einer entsprechenden „Paketschreiberschnittstelle“ für die Erstellung und Dokumentation auf LaTeX aufbauender Makropakete. Die beiden Entwicklungsstufen von LaTeX sind nicht kompatibel.
-LaTeX 2 ist seit Mitte der 1990er Jahre die am weitesten verbreitete Methode, TeX zu verwenden. \footnote{(26.06.2017) https://de.wikipedia.org/wiki/LaTeX} 
+LaTeX 2 ist seit Mitte der 1990er Jahre die am weitesten verbreitete Methode, TeX zu verwenden.\\
+Im Gegensatz zu anderen Textverarbeitungsprogrammen, die nach dem What-you-see-is-what-you-get-Prinzip funktionieren, arbeitet der Autor mit Textdateien, in denen er innerhalb eines Textes anders zu formatierende Passagen oder Überschriften mit Befehlen textuell auszeichnet. Das Beispiel unten zeigt den Quellcode eines einfachen LaTeX-Dokuments. Bevor das LaTeX-System den Text entsprechend setzen kann, muss es den Quellcode verarbeiten. Das dabei von LaTeX generierte Layout gilt als sehr sauber, sein Formelsatz als sehr ausgereift. Außerdem ist die Ausgabe u. a. nach PDF, HTML und PostScript möglich. LaTeX eignet sich insbesondere für umfangreiche Arbeiten wie Diplomarbeiten und Dissertationen, die oftmals strengen typographischen Ansprüchen genügen müssen. Insbesondere in der Mathematik und den Naturwissenschaften erleichtert LaTeX das Anfertigen von Schriftstücken durch seine komfortablen Möglichkeiten der Formelsetzung gegenüber üblichen Textverarbeitungssystemen. Das Verfahren von LaTeX wird auch mit WYSIWYAF (What you see is what you asked for.) umschrieben. 
+
+\newpage
+
+\section{Zwei Bilder}
+
+Es folgen nun zwei Bilder die nebeneinander positioniert sind. Die Bilder befinden sich dabei
+in einer \textit{figure} Umgebung und selbst jeweils in einer \textit{subfigure} Umgebung. Die Anmerkungen wurden mithilfe des Paketes \textit{caption} und \textit{subcaption} ermöglicht. Los geht es!
+\vspace{10pt}
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{images/Nederlands_verkeersbord_C4_(links).png}
+		\caption{Bild A}
+		
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{images/Nederlands_verkeersbord_C4_(rechts).png}
+		\caption{Bild B}
+		
+	\end{subfigure}
+	\caption{Gesamtbildunterschrift}
+
+\end{figure}
+
 
 \newpage
 
