@@ -1,7 +1,9 @@
 # AWE Wissenschaftliches Arbeiten mit LaTeX @ HTW Berlin (SS17)
 
-Assignment for the course *Wissenschaftliches Arbeiten mit LaTeX* 
+Assignment for class *Wissenschaftliches Arbeiten mit LaTeX* 
 (scientifc working with LaTeX). 
+
+Erstellung eines LaTeX Dokumentes / Making a LaTeX file.
 
 Ziele / Goals:
 
