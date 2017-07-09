@@ -198,6 +198,39 @@ in einer \textit{figure} Umgebung und selbst jeweils in einer \textit{subfigure}
 
 \end{figure}
 
+\newpage
+
+\chapter{Vektor Grafiken}
+Hier werden Vektor-Grafiken mithilfe der Umgebungen \textit{TikZ} erstellt.
+\vspace{5pt} \\
+\begin{figure}[h!]
+\begin{tikzpicture}[xscale=3.5, yscale=2.5]
+
+\draw (0,0) circle [radius=1.5];
+\draw (0,0) circle [radius=2];
+\draw (0,0) circle [x radius=2.5cm, y radius=10mm];
+\draw (0,0) circle (1.2cm and 8mm); 
+\draw (0,0) circle [x radius=1cm, y radius=5mm, rotate=30];
+
+\end{tikzpicture}
+\caption{Fancy Kreise}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+\begin{tikzpicture}[xscale=2.5, yscale=1.5]
+\draw [help lines] (-2,0) grid (2,4); 
+\draw [->] (-2.2,0) -- (2.2,0); 
+\draw [->] (0,0) -- (0,4.2); 
+\draw [green, thick, domain=-2:2] plot (\x, {4-\x*\x}); 
+\draw [domain=-2:2, samples=50] plot (\x, {2+cos(pi*\x r)});
+
+
+\end{tikzpicture}
+\caption{Zwei Funktionen}
+\end{figure}
+
+
+
 
 \newpage
 
