@@ -1,19 +1,18 @@
 # LaTeX Repository
+<img src="https://github.com/jannesbrunner/LaTeX/blob/master/LaTeX.readmelogo.png">
 Welcom to the LaTeX repository! 
 Here you can find my snippets and presets as well as brainstormings for the powerful document preparation system
 LaTeX! 
 
-
-
 ## TOC 
 
-- [Features](#Features)
-- [To-Do](#To-Do)
-- [How to use it](#How-to-use-it)
-    - [Prerequisites](#Prerequisites)
-    - [Setup](#Setup)
-    - [Running](#Running)
- - [Credits](#Credits)
+- [Features](#teatures)
+- [To-Do](#to-do)
+- [How to use it](#how-to-use-it)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Running](#running)
+ - [Credits](#credits)
 
 ## Features 
 LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
