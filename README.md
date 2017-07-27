@@ -1,6 +1,6 @@
 # LaTeX Repository
 <img src="https://github.com/jannesbrunner/LaTeX/blob/master/LaTeX.readmelogo.png">
-Welcom to the LaTeX repository! 
+Welcom to the LaTeX repository! <br>
 Here you can find my snippets and presets as well as brainstormings for the powerful document preparation system
 LaTeX! 
 
@@ -33,17 +33,17 @@ You just need a Mac, Linux or Windows based machine. Or just a HTML5 capable web
 cloud based solution like [Overleaf](https://www.overleaf.com/).
 
 ### Setup
-Mac, Linux and Windows: just visit <a href="https://www.latex-project.org/get/">latex-project.org/get</a>
+Mac, Linux and Windows: just visit <a href="https://www.latex-project.org/get/">latex-project.org/get</a> <br>
 If you work on a windwos based machine, I can recommend to use [TexLive](https://www.tug.org/texlive/) as your LaTeX basis.
-I had some package downloading problems with [MikTex](https://miktex.org/) but it is really up to you which system you prefer for whatsoever reason. Mac users are covered by [MacTex](http://www.tug.org/mactex/).
+I had some package downloading problems with [MikTex](https://miktex.org/) but it is really up to you which system you prefer for whatsoever reason. <br> Mac users are covered by [MacTex](http://www.tug.org/mactex/).
 
 ### Running
 You can use LaTeX stand-alone within a terminal to just compile your documents or just grab one of the powerful LaTeX IDEs such as
-[TeX Studio](http://www.texstudio.org/), [TexMaker](http://www.xm1math.net/texmaker/), [TexWorks](https://www.tug.org/texworks/). 
-You may also take a look at: [Comparison of TeX Editors](https://en.wikipedia.org/wiki/Comparison_of_TeX_editors).
+[TeX Studio](http://www.texstudio.org/), [TexMaker](http://www.xm1math.net/texmaker/), [TexWorks](https://www.tug.org/texworks/). <br>
+You may also take a look at: [Comparison of TeX Editors](https://en.wikipedia.org/wiki/Comparison_of_TeX_editors). <br>
 There are support plugins for [Vim](http://vim-latex.sourceforge.net/) and [Emacs](https://piotrkazmierczak.com/2010/emacs-as-the-ultimate-latex-editor/). 
 
-I use TexStudio on a Windows based system. 
+I use TexStudio on a Windows based system. <br>
 On Mac OS I often just compile my documents within the terminal.
 
 
