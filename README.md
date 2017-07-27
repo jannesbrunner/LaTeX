@@ -23,7 +23,7 @@ LaTeX is a high-quality typesetting system; it includes features designed for th
 Nothing specific currently.
 
 ## How to use it
-If just want to have fresh start and play around with LaTeX, I can recommend 
+If you just want to have a straightforward start and play around with LaTeX, I can recommend 
 [Overleaf](https://www.overleaf.com/), an online LaTeX and Rich Text collaborative writing and publishing tool. 
 (Like Google docs, if you will). No need to install something, just dive into it. :)
 
